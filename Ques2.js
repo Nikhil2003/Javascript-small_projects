@@ -1,23 +1,17 @@
-let arr = '025468';
-l=arr.length;
-l=l-1;
-arr.toString();
-c=0;
-while(c<=l)
-{
-    if(arr[c]%2==0)
-    {
-        if(arr[c+1]%2==0)
-        {
-            console.log(arr[c])
-            console.log('-')
-            console.log(arr[c+1])
-            
-        }
-        
-    }
+let prompt= require('prompt-sync')();
+const num=prompt("Enter the number");
+const str = num.toString();
+const result = [str[0]];
+  
+for(let x=1; x<str.length; x++)
+  {
+    if((str[x-1]%2 === 0)&&(str[x]%2 === 0))
+     {
+      result.push('-', str[x]);
+     }
     else
-      console.log(arr[c])
-    
-      c=c+1;
-}
+     {
+      result.push(str[x]);
+     }
+  }
+console.log(result.join(''));
