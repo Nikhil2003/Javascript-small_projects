@@ -2,8 +2,12 @@
 Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 Sample Output : -4,-3,1,2,3,5,6,7,8*/
 
-const arr=[-3,8,7,6,5,-4,3,2,1];
-// arr.toString();
+// const arr=[-3,8,7,6,5,-4,3,2,1];
+let prompt= require('prompt-sync')();
+
+let input = prompt("Enter a list of items separated by commas:");
+let arr = input.split(" ");
+
 l=arr.length;
 l=l-1;
 let temp=0;
