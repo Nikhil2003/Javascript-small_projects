@@ -1,0 +1,44 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+span{
+  display: block;
+}
+.blocks{
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.clicks{
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey{
+  background: grey;
+} 
+
+#yellow
+{
+background: yellow;
+}
+
+#pink{
+background: pink;
+}
+
+#blue{
+ background: blue;
+}
+
+#violet{
+ background: violet;
+}
+
+#green{
+ background: green;
+}
