@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    // make a div and this below are the way to make the operation on the div;
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    
+    //there is a two ways to write a text in the div 
+
+    // div.innerText = "Chai aur codde"   //first way -- this uses the 2 round to write text
+    const addText = document.createTextNode("Chai aur code") // this is the right way to write the text  
+    div.appendChild(addText)  //this is used to append and to attach text node in the div 
+
+    document.body.appendChild(div)// this is used to append and to attach node in the body and then in the document to print on the screen  
+</script>
+</html>
