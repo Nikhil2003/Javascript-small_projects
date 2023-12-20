@@ -1,0 +1,43 @@
+nav{
+  text-align: center;
+  text-decoration: none;
+}
+p{
+  color:rgb(0, 0, 0);
+
+}
+.container-block{
+  margin: 0 0 0 200px;
+  width: 70%;
+  height: 512px;
+
+}
+#thought{
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+#calculated{
+  color: white;
+  font-size: 37px;
+  margin-top: 18px;
+}
+form{
+  margin: 40px;
+  text-align: center;
+}
+button{
+  border-radius: 10px;
+  background-color: white;
+  padding: 7px;
+  width: 100px;
+}
+h1{
+  text-align: center;
+}
+input{
+  border-radius: 4px;
+}
+.space{
+margin: 28px;
+}
